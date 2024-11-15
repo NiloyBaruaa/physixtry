@@ -10,6 +10,11 @@ import Home from './Components/Home/Home';
 import Classes from './Components/Classes/Classes';
 import Subject from './Components/Subject/Subject';
 import Physics from './Components/Physics/Physics';
+import Chemistry from './Components/Chemistry/Chemistry';
+import Biology from './Components/Biology/Biology'
+import Maths from './Components/Maths/Maths'
+import HigherMath from './Components/Higher Math/HigherMath'
+
 
 
 
@@ -19,47 +24,54 @@ const router = createBrowserRouter([
     element: <Roots></Roots>,
     children: [
       {
-        path: '/',
+        path: '/physixtry',
         element: <Home></Home>
       },
       {
-        path: '/classes',
+        path: '/physixtry/classes',
         element: <Classes></Classes>
       },
       {
-        path: '/subject',
+        path: '/physixtry/subject',
         element: <Subject></Subject>
       },
       {
-        path: '/physics',
+        path: '/physixtry/physics',
         element: <Physics></Physics>
       },
       {
-        path: '/chemistry',
-        element: <Subject></Subject>
+        path: '/physixtry/chemistry',
+        element: <Chemistry></Chemistry>
       },
       {
-        path: '/biology',
-        element: <Subject></Subject>
+        path: '/physixtry/biology',
+        element: <Biology></Biology>
       },
       {
-        path: '/math',
-        element: <Subject></Subject>
+        path: '/physixtry/math',
+        element: <Maths></Maths>
       },
       {
-        path: '/highermath',
-        element: <Subject></Subject>
+        path: '/physixtry/highermath',
+        element: <HigherMath></HigherMath>
       }
     ]
   },
-]);
+],
+{
+  future: {
+    v7_skipActionErrorRevalidation: true,  // Opt-in early for v7 behavior
+  },
+});
 
 
 createRoot(document.getElementById('root')).render(
 
 
-    <StrictMode>
-      <RouterProvider router={router} />
-    </StrictMode>,
- 
+  <StrictMode>
+
+      <RouterProvider router={router}   basename="/physixtry" />
+
+  </StrictMode>,
+
 )

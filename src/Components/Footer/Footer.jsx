@@ -1,4 +1,4 @@
-
+import logo from '../../assets/Images/logo.png'
 
 const Footer = () => {
     return (
@@ -6,7 +6,7 @@ const Footer = () => {
             <footer className="footer footer-center  bg-[#1e1b4b] text-white p-10">
                 <aside>
                     <div className="inline-block w-32 h-32 m-5">
-                        <img src="../../../public/Images/logo.png" alt="" />
+                        <img src={logo} alt="" />
                     </div>
                     <p className="font-extrabold text-5xl">
                         PHYSIXTRY

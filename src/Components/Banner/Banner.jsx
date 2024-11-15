@@ -1,9 +1,11 @@
+import './Banner.css'
+import cartoon from '../../assets/Images/yGfPVNn-removebg-preview.png'
 const Banner = () => {
     return (
-        <div className="hero  bg-[url('../../../public/Images/footer.png')] text-white  min-h-screen pt-3 z-0 px-5">
+        <div id='banner' className="hero   text-white  min-h-screen pt-3 z-0 px-5">
             <div className="hero-content flex-col lg:flex-row-reverse md:gap-16">
                 <img
-                    src="../../../public/Images/yGfPVNn-removebg-preview.png"
+                    src={cartoon}
                     className="rounded-lg shadow-2xl md:w-1/2 md:h-1/2 static" />
                 <div className="text-center md:text-left">
                     <h1 className="text-4xl font-bold py-1">

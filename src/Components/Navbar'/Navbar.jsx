@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
-
+import logo from '../../assets/Images/logo.png'
 
 const Navbar = () => {
     const navLinks =
         <>
-            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b] ' to={'/'}>Home</NavLink>
-            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/details'}>Course Details</NavLink>
-            <NavLink className='px-5  btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/classes'}>My Classes</NavLink>
-            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/notification'}>Notifications</NavLink>
+            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b] ' to={'/physixtry'}>Home</NavLink>
+            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/details'}>Course Details</NavLink>
+            <NavLink className='px-5  btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/classes'}>My Classes</NavLink>
+            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/notification'}>Notifications</NavLink>
         </>
     return (
         <div className="navbar bg-white text-[#1e1b4b] md:px-6 sticky top-0 z-10">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex items-center gap-1 md:gap-2">
-                    <img className="w-9 h-10 md:w-12 md:h-16" src="../../../public/Images/logo.png" alt="" />
+                    <img className="w-9 h-10 md:w-12 md:h-16" src={logo} alt="" />
                     <a className="text-xl md:text-2xl font-extrabold"><i>PHYSIXTRY</i></a>
                 </div>
             </div>
