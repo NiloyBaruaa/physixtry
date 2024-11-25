@@ -1,7 +1,7 @@
 {
   "name": "physixtry",
   "private": true,
-  "homepage": "https://niloybarua.github.io/physixtry/",
+
   "version": "0.0.0",
   "type": "module",
   "scripts": {
