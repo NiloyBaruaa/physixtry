@@ -10,6 +10,10 @@ const Features = () => {
         .then(res => res.json())
         .then(data => setFeatures(data.features))
     },[])
+
+    if (!features) {
+        return <span className="loading loading-spinner loading-lg"></span>
+    }
     return (
         <div className="py-20  bg-blue-700 text-white">
             <h1 className="text-6xl my-10 text-center ">কোর্সে যা কিছু থাকছে🔥</h1>

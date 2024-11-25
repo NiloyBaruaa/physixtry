@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import Hmath from "../Hmath/Hmath";
+import { Navigate } from "react-router-dom";
 
 
 const HigherMath = () => {
@@ -10,6 +11,12 @@ const HigherMath = () => {
             .then(res => res.json())
             .then(data => setHigherMath(data.subjects))
     }, [])
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+
+    if (!isLoggedIn) {
+        // Redirect to login if not logged in
+        return <Navigate to="/physixtry/login" />;
+    }
     return (
         <div>
             <h1 className="text-7xl text-center font-bold">PHYSICS Content</h1>

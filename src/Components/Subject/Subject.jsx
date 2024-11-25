@@ -6,28 +6,8 @@ import biology from "../../assets/Images/Biology.jpg"
 import math from "../../assets/Images/math.jpg"
 import hMath from "../../assets/Images/h math.jpg"
 const Subject = () => {
-    return (
-
-        <div>
-            <h1 className="text-5xl mt-3 text-yellow-400 font-extrabold underline text-center">Choose Your Subject !</h1>
-            <div className="flex flex-col md:flex-row gap-10 mt-10 justify-evenly">
-                <div className="card-actions  justify-center">
-                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/physics">PHYSICS</Link></button>
-                </div>
-                <div className="card-actions  justify-center">
-                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/chemistry">CHEMISTRY</Link></button>
-                </div>
-                <div className="card-actions  justify-center">
-                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/math">MATH</Link></button>
-                </div>
-                <div className="card-actions  justify-center">
-                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/highermath">H.MATH</Link></button>
-                </div>
-                <div className="card-actions  justify-center">
-                    <button className="btn btn-primary px-10 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/biology">BIOLOGY</Link></button>
-                </div>
-            </div>
-            <Marquee speed={200}>
+    const marqueeSubject = <>
+     <Marquee speed={200}>
                 <div className="flex gap-14 m-10">
                     <div>
                         <Link to={'/physixtry/physics'}>
@@ -56,6 +36,31 @@ const Subject = () => {
                     </div>
                 </div>
             </Marquee>
+    
+
+    </>
+    return (
+
+        <div>
+            <h1 className="text-5xl mt-3 text-yellow-400 font-extrabold underline text-center">Your Classes</h1>
+            <div className="flex flex-col md:flex-row gap-10 mt-10 justify-evenly">
+                <div className="card-actions  justify-center">
+                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/physics">PHYSICS</Link></button>
+                </div>
+                <div className="card-actions  justify-center">
+                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/chemistry">CHEMISTRY</Link></button>
+                </div>
+                <div className="card-actions  justify-center">
+                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/math">MATH</Link></button>
+                </div>
+                <div className="card-actions  justify-center">
+                    <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/highermath">H.MATH</Link></button>
+                </div>
+                <div className="card-actions  justify-center">
+                    <button className="btn btn-primary px-10 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/biology">BIOLOGY</Link></button>
+                </div>
+            </div>
+           {marqueeSubject}
         </div>
     );
 };

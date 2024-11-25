@@ -14,22 +14,40 @@ import Chemistry from './Components/Chemistry/Chemistry';
 import Biology from './Components/Biology/Biology'
 import Maths from './Components/Maths/Maths'
 import HigherMath from './Components/Higher Math/HigherMath'
+import PrivateRoute from './Components/PrivateRoute/PrivatRoute';
+import { AuthProvider } from './Components/AuthProvider/AuthProvider';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
+import Books from './Components/Books/Books';
+import Exams from './Components/Exams/Exams';
 
 
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/physixtry/",
     element: <Roots></Roots>,
     children: [
       {
-        path: '/physixtry',
+        path: '/physixtry/',
         element: <Home></Home>
       },
       {
-        path: '/physixtry/classes',
-        element: <Classes></Classes>
+        path: "/physixtry/classes",
+        element: (
+          <PrivateRoute>
+            <Classes></Classes>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: '/physixtry/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/physixtry/register',
+        element: <Register></Register>
       },
       {
         path: '/physixtry/subject',
@@ -54,24 +72,32 @@ const router = createBrowserRouter([
       {
         path: '/physixtry/highermath',
         element: <HigherMath></HigherMath>
-      }
+      },
+      {
+        path: '/physixtry/book',
+        element: <Books></Books>
+      },
+      {
+        path: '/physixtry/exams',
+        element: <Exams></Exams>
+      },
     ]
   },
 ],
-{
-  future: {
-    v7_skipActionErrorRevalidation: true,  // Opt-in early for v7 behavior
-  },
-});
+  {
+    future: {
+      v7_skipActionErrorRevalidation: true,  // Opt-in early for v7 behavior
+    },
+  });
 
 
 createRoot(document.getElementById('root')).render(
 
 
-  <StrictMode>
+  <AuthProvider>
+    <RouterProvider router={router} basename="/physixtry/" />
+  </AuthProvider>
 
-      <RouterProvider router={router}   basename="/physixtry" />
 
-  </StrictMode>,
 
 )

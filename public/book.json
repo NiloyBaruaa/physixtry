@@ -1,0 +1,30 @@
+{
+    "books": [
+      {
+        "book_name": "Physics",
+        "pdf_link": "https://drive.google.com/file/d/1KvoghzeDFe2efIXn0hZ8lbBK5cB-xmaj/view",
+        "book_unique_id": "B001"
+      },
+      {
+        "book_name": "Chemistry",
+        "pdf_link": "https://example.com/chemistry.pdf",
+        "book_unique_id": "B002"
+      },
+      {
+        "book_name": "Math",
+        "pdf_link": "https://example.com/math.pdf",
+        "book_unique_id": "B003"
+      },
+      {
+        "book_name": "Biology",
+        "pdf_link": "https://example.com/biology.pdf",
+        "book_unique_id": "B004"
+      },
+      {
+        "book_name": "Higher Math",
+        "pdf_link": "https://example.com/higher_math.pdf",
+        "book_unique_id": "B005"
+      }
+    ]
+  }
+  

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 import Math from "../Math/Math";
+import { Navigate } from "react-router-dom";
 
 const Maths = () => {
     const [maths, setMaths] = useState([]);
@@ -10,6 +11,12 @@ const Maths = () => {
             .then(res => res.json())
             .then(data => setMaths(data.subjects))
     }, [])
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+
+    if (!isLoggedIn) {
+        // Redirect to login if not logged in
+        return <Navigate to="/physixtry/login" />;
+    }
     return (
         <div>
             <h1 className="text-7xl text-center font-bold">PHYSICS Content</h1>

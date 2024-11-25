@@ -1,19 +1,22 @@
 {
   "name": "physixtry",
   "private": true,
-  "homepage": "https://nbnil.github.io/physixtry",
+  "homepage": "https://niloybarua.github.io/physixtry/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "vite preview",
     "build": "vite build",
-    "predeploy": "npm run build && cp dist/index.html dist/404.html",
-    "deploy": "gh-pages -d dist xcopy /E /I dist\\* .\\dist\\"
-    
+    "predeploy": "npm run build",
+    "build:github": "vite build --mode github",
+    "build:vercel": "vite build",
+    "deploy:github": "npm run build:github && gh-pages -d dist"
   },
   "dependencies": {
+    "firebase": "^11.0.2",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
     "react": "^18.3.1",

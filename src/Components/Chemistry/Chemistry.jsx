@@ -1,15 +1,25 @@
 
 import { useEffect, useState } from "react";
-import Physic from "../Physic/Physic";
+
 import Chemist from "../Chemist/Chemist";
+import { Navigate } from "react-router-dom";
 
 const Chemistry = () => {
+  
+
     const [chemistry, setChemistry] = useState([]);
     useEffect(() => {
         fetch('physics.json')
             .then(res => res.json())
             .then(data => setChemistry(data.subjects))
     }, [])
+
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+
+    if (!isLoggedIn) {
+        // Redirect to login if not logged in
+        return <Navigate to="/physixtry/login" />;
+    }
     return (
         <div>
             <h1 className="text-7xl text-center font-bold">PHYSICS Content</h1>

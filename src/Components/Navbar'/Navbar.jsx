@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/Images/logo.png'
 
 const Navbar = () => {
@@ -8,6 +8,7 @@ const Navbar = () => {
             <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/details'}>Course Details</NavLink>
             <NavLink className='px-5  btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/classes'}>My Classes</NavLink>
             <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/notification'}>Notifications</NavLink>
+            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/book'}>Highlighted Book</NavLink>
         </>
     return (
         <div className="navbar bg-white text-[#1e1b4b] md:px-6 sticky top-0 z-10">
@@ -44,7 +45,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn w-28 md:w-44 text-xsm md:text-md  text-white bg-[#1e1b4b] hover:text-white hover:border-none hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"><i>LOGIN</i></a>
+                <a className="btn w-28 md:w-44 text-xsm md:text-md  text-white bg-[#1e1b4b] hover:text-white hover:border-none hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"><i><Link to={'/physixtry/login'}>LOGIN</Link></i></a>
             </div>
         </div>
     );
