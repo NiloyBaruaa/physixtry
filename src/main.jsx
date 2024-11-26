@@ -28,6 +28,7 @@ const router = createBrowserRouter([
   {
     path: "/physixtry/",
     element: <Roots></Roots>,
+    errorElement : <Roots></Roots>,
     children: [
       {
         path: '/physixtry/',

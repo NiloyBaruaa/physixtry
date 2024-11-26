@@ -15,9 +15,9 @@ const Features = () => {
         return <span className="loading loading-spinner loading-lg"></span>
     }
     return (
-        <div className="py-20  bg-blue-700 text-white">
-            <h1 className="text-6xl my-10 text-center ">কোর্সে যা কিছু থাকছে🔥</h1>
-       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-10">
+        <div className="py-20  bg-blue-950 ">
+            <h1 className="text-6xl my-10 text-center text-white">কোর্সে যা কিছু থাকছে🔥</h1>
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-10 mt-24">
        {
                 features.map(feature => <Feature key={feature.feature_id} feature = {feature}></Feature>)
             }

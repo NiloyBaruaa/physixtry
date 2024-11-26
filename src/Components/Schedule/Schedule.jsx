@@ -23,7 +23,7 @@ const Schedule = () => {
                     </figure>
                     <div className="card-body text-black ">
                         <h2 className="card-title text-3xl font-semibold">এনরোলমেন্ট শেষ</h2>
-                        <p className="text-2xl font-semibold italic">November 18, 2024</p>
+                        <p className="text-2xl font-semibold italic">November 30, 2024</p>
                         
                     </div>
                 </div>

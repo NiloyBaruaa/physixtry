@@ -11,14 +11,15 @@ const Feature = ({ feature }) => {
     }
     return (
         <section>
-            <div className="card card-compact  w-96 border h-full">
+            <div className="card card-compact bg-slate-800 text-white font-semibold w-96 border h-full">
                 <figure>
                     <img
+                    className="w-full h-72"
                         src={feature_img}
                        />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">{feature_name}</h2>
+                    <h2 className="card-title font-semibold">{feature_name}</h2>
                     <p>{feature_details}</p>
                 </div>
             </div>
