@@ -4,7 +4,7 @@ const Details = () => {
     return (
         <div>
             <h1 className="text-center text-5xl font-bold text-white mt-10">Class Routine</h1>
-         <object height={1000} className="w-full mx-auto m-20" data="/public/Routine SSC - 25.pdf" type=""></object>
+       <iframe src="../../../public/Routine SSC - 25.pdf" className="w-full mt-10 mx-auto px-10 h-96 mb-10"></iframe>
         </div>
     );
 };
