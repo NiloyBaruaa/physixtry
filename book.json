@@ -2,26 +2,31 @@
     "books": [
       {
         "book_name": "Physics",
+        "book_img" : "../src/assets/Images/bookPhysics.jpeg",
         "pdf_link": "https://drive.google.com/file/d/1KvoghzeDFe2efIXn0hZ8lbBK5cB-xmaj/view",
         "book_unique_id": "B001"
       },
       {
         "book_name": "Chemistry",
+        "book_img" : "../src/assets/Images/bookChemistry.webp",
         "pdf_link": "https://example.com/chemistry.pdf",
         "book_unique_id": "B002"
       },
       {
         "book_name": "Math",
+        "book_img" : "../src/assets/Images/bookMath.png",
         "pdf_link": "https://example.com/math.pdf",
         "book_unique_id": "B003"
       },
       {
         "book_name": "Biology",
+        "book_img" : "../src/assets/Images/bookBio.jpeg",
         "pdf_link": "https://example.com/biology.pdf",
         "book_unique_id": "B004"
       },
       {
         "book_name": "Higher Math",
+        "book_img" : "../src/assets/Images/bookhigh.jpeg",
         "pdf_link": "https://example.com/higher_math.pdf",
         "book_unique_id": "B005"
       }
