@@ -20,6 +20,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Books from './Components/Books/Books';
 import Exams from './Components/Exams/Exams';
+import Details from './Components/Details/Details';
 
 
 
@@ -81,6 +82,10 @@ const router = createBrowserRouter([
       {
         path: '/physixtry/exams',
         element: <Exams></Exams>
+      },
+      {
+        path: '/physixtry/details',
+        element: <Details></Details>
       },
     ]
   },
