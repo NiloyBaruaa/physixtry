@@ -8,4 +8,7 @@ export default ({ mode }) =>
     build: {
       sourcemap: true,
     },
+    optimizeDeps: {
+      include: ['@react-pdf-viewer/core', 'react-pdf'],
+    },
   });

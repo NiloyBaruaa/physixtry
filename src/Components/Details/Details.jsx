@@ -1,11 +1,17 @@
+import { Link } from "react-router-dom";
+import routine from '../../assets/Images/routine.jpg'
+
 
 
 const Details = () => {
     return (
-        <div>
-            <h1 className="text-center text-5xl font-bold text-white mt-10">Class Routine</h1>
-       <iframe src="../../../public/Routine SSC - 25.pdf" className="w-full mt-10 mx-auto px-10 h-96 mb-10"></iframe>
+
+        <div className="bg-blue-950">
+            <h1 className="text-5xl font-bold text-center p-9 text-white">Get Your Full Routine</h1>
+            <Link  to={'https://drive.google.com/file/d/14jHyIYpvkia3diCP3NGQiW1ohtoV_CpF/view?usp=sharing'}><p className="text-center text-3xl font-semibold p-5 underline">Click Here</p></Link>
+            <img className="w-1/2 h-1/4 mx-auto pb-10" src={routine} alt="" />
         </div>
+
     );
 };
 
