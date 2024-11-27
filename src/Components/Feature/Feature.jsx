@@ -18,7 +18,8 @@ const Feature = ({ feature }) => {
     //     {"Image" : `${dagano}`},
     //     {"Image" : `${theoritical}`},
     // ]
-    
+    console.log(feature_img); // Check the image path
+
 
     if (!feature) {
         return <span className="loading loading-spinner loading-lg"></span>
@@ -35,6 +36,7 @@ const Feature = ({ feature }) => {
                     <h2 className="card-title font-semibold">{feature_name}</h2>
                     <p>{feature_details}</p>
                 </div>
+              
             </div>
 
           

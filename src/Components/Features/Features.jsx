@@ -7,9 +7,11 @@ const Features = () => {
     const [features,setFeatures] = useState([])
     useEffect(() => {
         fetch('features.json')
-        .then(res => res.json())
-        .then(data => setFeatures(data.features))
-    },[])
+            .then(res => res.json())
+            .then(data => setFeatures(data.features))
+            .catch(error => console.error('Error fetching features.json:', error));
+    }, []);
+    
 
     if (!features) {
         return <span className="loading loading-spinner loading-lg"></span>
