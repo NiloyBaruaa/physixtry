@@ -1,24 +1,9 @@
-// import hour from '../../assets/Images/200hour.jpeg'
-// import support from '../../assets/Images/24support.jpg'
-// import cq from '../../assets/Images/cq.jpg'
-// import weekly from '../../assets/Images/weekly.jpeg'
-// import dagano from '../../assets/Images/dagano boi.jpg'
-// import theoritical from '../../assets/Images/theoritical.png'
+
 
 
 const Feature = ({ feature }) => {
-    const { feature_id, feature_name, feature_img, feature_details } = feature;
+    const { feature_id, feature_name,  feature_details } = feature;
     console.log(feature_id);
-
-    // const featureImg = [
-    //     {"Image" : `${hour}`},
-    //     {"Image" : `${support}`},
-    //     {"Image" : `${cq}`},
-    //     {"Image" : `${weekly}`},
-    //     {"Image" : `${dagano}`},
-    //     {"Image" : `${theoritical}`},
-    // ]
-    console.log(feature_img); // Check the image path
 
 
     if (!feature) {
@@ -27,14 +12,10 @@ const Feature = ({ feature }) => {
     return (
         <section>
             <div className="card card-compact bg-slate-800 text-white font-semibold w-96 border h-full">
-                <figure>
-                    <img
-                    src={feature_img}
-                    className="w-full h-72"/>
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title font-semibold">{feature_name}</h2>
-                    <p>{feature_details}</p>
+     
+                <div className="card-body text-center">
+                    <h2 className="text-3xl p-4 mt-5 bg-white text-slate-800 rounded-md font-semibold">{feature_name}</h2>
+                    <p className="mt-6">{feature_details}</p>
                 </div>
               
             </div>
