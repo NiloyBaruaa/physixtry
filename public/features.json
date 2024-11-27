@@ -3,37 +3,37 @@
         {
             "feature_id": "1",
             "feature_name": "Basic থেকে Advanced Within 200+ Hours",
-            "feature_img": "/src/assets/Images/200hour.jpeg",
+            "feature_img": "../public/Images/200hour.jpeg",
             "feature_details": "বাকি থাকা ১৫০০ ঘণ্টা কে Dedicatedly কাজে লাগিয়ে এবং PHYSIXTRY এর Guideline Follow করে মাত্র ২০০ ঘণ্টায় নিজের Confidence Buildup করো এবং নিজেকে Prepare করো SSC তে শুধু Golden A+ না,বরং ৯০+ Marks Achieve করার জন্য "
         },
         {
             "feature_id": "2",
             "feature_name": "২৪/৭ আনলিমিটেড সাপোর্ট",
-            "feature_img": "/src/assets/Images/24support.jpg",
+            "feature_img": "../public/Images/24support.jpg",
             "feature_details": "যতক্ষণ পর্যন্ত কোন Math বা Topic বুঝতে পারবে না ততক্ষণ পর্যন্ত আমরা হেল্প করতেই থাকবো। ২৪ ঘন্টার মধ্যে সব প্রশ্নের উত্তর পাবে।Software এর মাধ্যমে Teacher Panel কে Problem/Topic/Math Submit করে প্রবলেম সলভ করতে পারবে। পিছিয়ে পড়লে স্পেশাল গাইডলাইন এবং কাউন্সেলিং সেশন পাবে। আর কি লাগে!"
         },
         {
             "feature_id": "3",
             "feature_name": "৩০+ CQ ও ১৫০+ MCQ(Per Chapter)",
-            "feature_img": "/src/assets/Images/cq.jpg",
+            "feature_img": "../public/Images/cq.jpg",
             "feature_details": "তোমাদের Preparation কে Maximize করার জন্য প্রত্যেক Chapter এই Solve করানো হবে ৩০+ CQ এবং ১৫০+ MCQ। অর্থাৎ Physics,Chemistry,Math,Higher Math,Biology এর Preparation করে তোল Top Notch।"
         },
         {
             "feature_id": "4",
             "feature_name": "Weekly Exam And POC(Proof Of Conception) Test",
-            "feature_img": "/src/assets/Images/weekly.jpeg",
+            "feature_img": "../public/Images/weekly.jpeg",
             "feature_details": "নিজের প্রস্তুতি কে ঝালাই করে নাও আমাদের Daily,Weekly Exam এবং At Last, POC(Proof OF Conception) Test এর মাধ্যমে। অর্থাৎ প্রস্তুতি তে ঘাটতি রাখা যাবে না কোনোভাবেই ।"
         },
         {
             "feature_id": "5",
             "feature_name": "দাগানো বই",
-            "feature_img": "/src/assets/Images/dagano boi.jpg",
+            "feature_img": "../public/Images/dagano boi.jpg",
             "feature_details": "শুধুমাত্র CQ নয়, ক ও খ এর পূর্ণাঙ্গ প্রস্তুতি নিশ্চিতে থাকছে দাগানো বই। অর্থাৎ ভিত্তি মজবুত করেই এগিয়ে চলো তোমার সাফল্যের দ্বারপ্রান্তে।"
         },
         {
             "feature_id": "6",
             "feature_name": "Theoritical Session",
-            "feature_img":  "/src/assets/Images/theoritical.png",
+            "feature_img":  "../public/Images/theoritical.png",
             "feature_details": "সপ্তাহে একদিন তোমাদের জন্য থাকবে Theoritical Session যেখানে তোমার Incomplete বা না বোঝা Topic টিও Clear করে গুলিয়ে খাইয়ে দেওয়া হবে। তুমি PHYSIXTRY কে ছেড়ে দিলেও PHYSIXTRY তোমার Success না দেখে ছাড়বেনা"
         }
     ]

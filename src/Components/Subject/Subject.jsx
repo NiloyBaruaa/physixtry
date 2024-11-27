@@ -1,10 +1,10 @@
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
-import physics from "../../assets/Images/Physics.webp"
-import chemistry from "../../assets/Images/chemistry.png"
-import biology from "../../assets/Images/Biology.jpg"
-import math from "../../assets/Images/math.jpg"
-import hMath from "../../assets/Images/h math.jpg"
+import physics from "../../../public/Images/Physics.webp"
+import chemistry from "../../../public/Images/chemistry.png"
+import biology from "../../../public/Images/Biology.jpg"
+import math from "../../../public/Images/math.jpg"
+import hMath from "../../../public/Images/h math.jpg"
 const Subject = () => {
     const marqueeSubject = <>
      <Marquee speed={200}>

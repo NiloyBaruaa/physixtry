@@ -1,5 +1,5 @@
 import './Banner.css'
-import cartoon from '../../assets/Images/yGfPVNn-removebg-preview.png'
+import cartoon from '../../../public/Images/yGfPVNn-removebg-preview.png'
 const Banner = () => {
     return (
         <div id='banner' className="hero   text-white  min-h-screen pt-3 z-0 px-5">

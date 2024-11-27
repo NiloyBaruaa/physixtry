@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import banner from '../../assets/Images/Yellow and Red Bright and Playful YouTube Thumbnail (9).png'
+import banner from '../../../public/Images/Yellow and Red Bright and Playful YouTube Thumbnail (9).png'
 import { useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../Firebase/firebase.config";
-import banner2 from '../../assets/Images/Yellow and Red Bright and Playful YouTube Thumbnail (13).png'
+import banner2 from '../../../public/Images/Yellow and Red Bright and Playful YouTube Thumbnail (13).png'
 const Classes = () => {
     const navigate = useNavigate();
     const handleLogout = async () => {

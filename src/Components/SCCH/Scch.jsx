@@ -1,5 +1,5 @@
 
-import scch from '../../assets/Images/scch.webp'
+import scch from '../../../public/Images/scch.webp'
 const Scch = () => {
     return (
         <div className="flex justify-center">

@@ -6,7 +6,7 @@ import Scch from "../SCCH/Scch";
 const Features = () => {
     const [features,setFeatures] = useState([])
     useEffect(() => {
-        fetch('/public/features.json')
+        fetch('features.json')
         .then(res => res.json())
         .then(data => setFeatures(data.features))
     },[])
