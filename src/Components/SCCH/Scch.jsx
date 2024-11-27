@@ -3,10 +3,10 @@ import scch from '../../assets/Images/scch.webp'
 const Scch = () => {
     return (
         <div className="flex justify-center">
-                  <div className="card  bg-base-100 shadow-xl mt-12 w-1/2 px-10">
+                  <div className="card  bg-base-100 shadow-xl mt-12 mx-5 w-full md:w-1/2 px-10">
                 <figure>
                     <img
-                       className='w-full h-full'
+                       className='w-full h-full p-3'
                         src={scch}
                         alt="SCCH" />
                 </figure>
