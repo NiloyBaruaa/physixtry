@@ -21,6 +21,7 @@ import Register from './Components/Register/Register';
 import Books from './Components/Books/Books';
 import Exams from './Components/Exams/Exams';
 import Details from './Components/Details/Details';
+import Notifications from './Components/Notifications/Notifications';
 
 
 
@@ -78,6 +79,10 @@ const router = createBrowserRouter([
       {
         path: '/physixtry/book',
         element: <Books></Books>
+      },
+      {
+        path: '/physixtry/notifications',
+        element: <Notifications></Notifications>
       },
       {
         path: '/physixtry/exams',

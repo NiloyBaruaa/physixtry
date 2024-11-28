@@ -7,7 +7,7 @@ const Navbar = () => {
             <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b] ' to={'/physixtry'}>Home</NavLink>
             <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/details'}>Course Details</NavLink>
             <NavLink className='px-5  btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/classes'}>My Classes</NavLink>
-            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/notification'}>Notifications</NavLink>
+            <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/notifications'}>Notifications</NavLink>
             <NavLink className='px-5 btn border-none bg-white text-[#1e1b4b] hover:text-white hover:bg-[#1e1b4b]' to={'/physixtry/book'}>Highlighted Book</NavLink>
         </>
     return (
