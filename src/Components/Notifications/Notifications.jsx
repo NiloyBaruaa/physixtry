@@ -17,8 +17,8 @@ const Notifications = () => {
         return <Navigate to="/physixtry/login" />;
     }
     return (
-        <div>
-        <h1 className="text-7xl my-16 text-center m-10 font-bold bg-blue-950">Latest Notification</h1>
+        <div className="bg-blue-950">
+        <h1 className="text-7xl my-16 text-center m-10 font-bold  text-white">Latest Notification</h1>
              <div className=" mx-32 md:mx-16 flex flex-col-reverse gap-10">
                 {
                     notifications.map(notification => <Notification key={notification.notification_id} notification={notification}></Notification>)
