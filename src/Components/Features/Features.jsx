@@ -17,15 +17,18 @@ const Features = () => {
         return <span className="loading loading-spinner loading-lg"></span>
     }
     return (
-        <div className="py-20  bg-blue-950 ">
+        <div className="pt-20  bg-blue-950 ">
             <h1 className="text-6xl my-10 text-center text-white">কোর্সে যা কিছু থাকছে🔥</h1>
        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-10 mt-24">
        {
                 features.map(feature => <Feature key={feature.feature_id} feature = {feature}></Feature>)
             }
        </div>
-       <h1 className="text-center text-5xl mt-32 font-extrabold">Biggest Surprise Of The Course</h1>
-       <Scch></Scch>
+     
+     <div className="bg-white">
+     <h1 className="text-center pt-20 text-black text-5xl mt-32 font-extrabold">Biggest Surprise Of The Course</h1>
+     <Scch></Scch>
+     </div>
         </div>
     );
 };

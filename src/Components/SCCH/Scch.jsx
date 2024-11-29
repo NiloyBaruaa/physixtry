@@ -2,8 +2,8 @@
 import scch from '../../../public/Images/scch.webp'
 const Scch = () => {
     return (
-        <div className="flex justify-center">
-                  <div className="card  bg-blue-900 text-white shadow-xl mt-12 mx-5 w-full md:w-1/2 px-10">
+        <div className="flex justify-center ">
+                  <div className="card mb-16 bg-blue-950 text-white shadow-xl mt-12 mx-5 w-full md:w-1/2 px-10">
                 <figure>
                     <img
                        className='w-80 h-80 p-3'
