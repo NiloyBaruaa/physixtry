@@ -7,8 +7,8 @@ const Notification = ({notification}) => {
     return (
         <div className="card bg-blue-900 text-white w-full">
         <div className="card-body">
-          <h2 className="card-title text-3xl">{notification_title}</h2>
-          <p>{notification_description}</p>
+          <h2 className="card-title text-2xl md:text-3xl">{notification_title}</h2>
+          <p className='text-lg'>{notification_description}</p>
         </div>
       </div>
     );

@@ -10,9 +10,9 @@ const Book = ({book}) => {
         return <Navigate to="/physixtry/login" />;
     }
     return (
-        <div className="card bg-base-100 w-96 shadow-xl border">
+        <div className="card bg-blue-950 w-96 shadow-xl border">
             <div className="card-body">
-                <h2 className="card-title text-2xl text-center mx-auto m-5">{book_name}</h2>
+                <h2 className="card-title text-2xl text-center text-white mx-auto m-5">{book_name}</h2>
                 <Link to={pdf_link} className="btn btn-info">Download Your Book</Link>
             </div>
         </div>
