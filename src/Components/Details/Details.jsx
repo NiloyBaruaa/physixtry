@@ -8,12 +8,12 @@ const Details = () => {
 
         <div className="bg-blue-950">
             <h1 className="text-5xl font-bold text-center p-9 text-white">Get Your Full Routine</h1>
-            <Link to={'https://drive.google.com/file/d/14jHyIYpvkia3diCP3NGQiW1ohtoV_CpF/view?usp=sharing'}><p className="text-center text-3xl font-semibold p-5 underline">Click Here</p></Link>
+            <Link to={'https://drive.google.com/file/d/14jHyIYpvkia3diCP3NGQiW1ohtoV_CpF/view?usp=sharing'}><p className="text-center text-3xl font-semibold p-5 underline text-blue-300">Click Here</p></Link>
             <img className="w-1/2 h-1/4 mx-auto pb-10" src={routine} alt="" />
 
 
             <h1 className="text-5xl font-bold text-center p-9 text-white">Course Details</h1>
-            <p className="text-center text-lg w-1/2 mx-auto">
+            <p className="text-center text-lg w-1/2 mx-auto text-cyan-400">
                 🖋️SSC 2025 | Zero To Hustler Within 200 Hour | এনরোলমেন্ট  শুরু আজ থেকেই | <br />
 
                 🥇অমুক তমুক ভাইয়ার সাজেশন ও ১ রাতে ১০ অধ্যায় শেষ করার ভিডিও দেখে টেস্ট পরীক্ষা তো পার করে ফেলতেস,কিন্তু SSC তে কি করবা? <br />
