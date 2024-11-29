@@ -7,7 +7,7 @@ const Books = () => {
 
     const [books, setBooks] = useState([])
     useEffect(() => {
-        fetch('/public/book.json')
+        fetch('/book.json')
             .then(res => res.json())
             .then(data => setBooks(data.books))
             .catch(error => console.error('Error fetching books.json:', error));
@@ -20,7 +20,7 @@ const Books = () => {
         return <Navigate to="/physixtry/login" />;
     }
     localStorage.setItem('isLoggedIn', 'true'); 
-    
+
     if (!books) {
         return <span className="loading loading-spinner loading-lg"></span>
     }

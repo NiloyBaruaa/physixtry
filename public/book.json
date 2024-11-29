@@ -1,36 +1,29 @@
-
 {
-    "books": [
+  "books": [
       {
-        "book_name": "Physics Dagano Book",
-
-        "pdf_link": "https://drive.google.com/file/d/1luUI-QPTnlBRopDFM_J6sNcctzrwEGbw/view?usp=sharing",
-        "book_unique_id": "B001"
+          "book_name": "Physics Dagano Book",
+          "pdf_link": "https://drive.google.com/file/d/1luUI-QPTnlBRopDFM_J6sNcctzrwEGbw/view?usp=sharing",
+          "book_unique_id": "B001"
       },
       {
-        "book_name": "Chemistry Dagano Book",
- 
-        "pdf_link": "https://example.com/chemistry.pdf",
-        "book_unique_id": "B002"
+          "book_name": "Chemistry Dagano Book",
+          "pdf_link": "https://example.com/chemistry.pdf",
+          "book_unique_id": "B002"
       },
       {
-        "book_name": "Math Dagano Book",
-
-        "pdf_link": "https://example.com/math.pdf",
-        "book_unique_id": "B003"
+          "book_name": "Math Dagano Book",
+          "pdf_link": "https://example.com/math.pdf",
+          "book_unique_id": "B003"
       },
       {
-        "book_name": "Biology Dagano Book",
-
-        "pdf_link": "https://drive.google.com/file/d/1iH6vSbuerXvJBlAlaBXkfG5Lcv-oGbD4/view?usp=sharing",
-        "book_unique_id": "B004"
+          "book_name": "Biology Dagano Book",
+          "pdf_link": "https://drive.google.com/file/d/1iH6vSbuerXvJBlAlaBXkfG5Lcv-oGbD4/view?usp=sharing",
+          "book_unique_id": "B004"
       },
       {
-        "book_name": "Higher Math Dagano Book",
-     
-        "pdf_link": "https://example.com/higher_math.pdf",
-        "book_unique_id": "B005"
+          "book_name": "Higher Math Dagano Book",
+          "pdf_link": "https://example.com/higher_math.pdf",
+          "book_unique_id": "B005"
       }
-    ]
-  }
-  
+  ]
+}
