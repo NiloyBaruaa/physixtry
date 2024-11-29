@@ -24,7 +24,7 @@ const Classes = () => {
                         src={banner}
                         alt="Movie" />
                 </figure>
-                <div className="card-body">
+                <div className="card-body bg-black">
                     <h2 className="card-title text-5xl text-yellow-300 font-extrabold">Zero To Hustler Within 200 Hours</h2>
                     <p className="text-2xl font-bold text-white">Experience The Best Education In Bangladesh In The Way You Never Learned Before</p>
                     <div className="card-actions  justify-center">
@@ -34,7 +34,7 @@ const Classes = () => {
             </div>
             <div className="card text-center md:text-left  flex flex-col-reverse lg:flex-row bg-base-100 shadow-xl md:mx-28 border m-10">
 
-            <div className="card-body">
+            <div className="card-body bg-black">
                     <h2 className="card-title text-5xl text-yellow-300 font-extrabold">Get Your Weekly Test</h2>
                     <p className="text-2xl font-bold text-white">Experience The Best Education In Bangladesh In The Way You Never Learned Before</p>
                     <div className="card-actions  justify-center">
