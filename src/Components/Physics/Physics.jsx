@@ -6,7 +6,7 @@ import { Navigate } from "react-router-dom";
 const Physics = () => {
     const [physics, setPhysics] = useState([]);
     useEffect(() => {
-        fetch('physics.json')
+        fetch('/physics.json')
             .then(res => res.json())
             .then(data => setPhysics(data.subjects))
     }, [])
