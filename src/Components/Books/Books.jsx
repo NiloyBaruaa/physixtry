@@ -19,7 +19,7 @@ const Books = () => {
         // Redirect to login if not logged in
         return <Navigate to="/physixtry/login" />;
     }
-    localStorage.setItem('isLoggedIn', 'true'); 
+    localStorage.setItem('isLoggedIn', 'true');
 
     if (!books) {
         return <span className="loading loading-spinner loading-lg"></span>

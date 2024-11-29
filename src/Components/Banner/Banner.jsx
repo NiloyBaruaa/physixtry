@@ -1,9 +1,10 @@
 import './Banner.css'
 import cartoon from '../../../public/Images/yGfPVNn-removebg-preview.png'
+
 const Banner = () => {
 
     return (
-        <div id='banner' className="hero   text-white  min-h-screen pt-3 z-0 px-5">
+        <div id='banner' className="hero bg-blue-950  text-white  min-h-screen pt-3 z-0 px-5">
             <div className="hero-content flex-col lg:flex-row-reverse md:gap-16">
                 <img
                     src={cartoon}
