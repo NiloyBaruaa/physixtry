@@ -6,7 +6,7 @@ import Notification from "../Notification/Notification";
 const Notifications = () => {
     const [notifications,setNotification] = useState([])
     useEffect(() => {
-        fetch('/public/notifications.json')
+        fetch('/notifications.json')
         .then(res => res.json())
         .then(data => setNotification(data))
     },[])
