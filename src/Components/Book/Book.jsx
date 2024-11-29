@@ -12,7 +12,6 @@ const Book = ({book}) => {
     return (
         <div className="card bg-base-100 w-96 shadow-xl border">
             <div className="card-body">
-                <img className="h-80" src={book_img} alt="" />
                 <h2 className="card-title text-2xl text-center mx-auto m-5">{book_name}</h2>
                 <Link to={pdf_link} className="btn btn-info">Download Your Book</Link>
             </div>
