@@ -3,13 +3,15 @@
   {
     "subjects": [
       {
-        "subject_id": "CHM301",
+        "subject_id": "PHY301",
         "subject_name": "Physics",
-        "subject_title": "Organic Chemistry",
-        "subject_url": ""
+        "subject_title": "বাস্তব সংখ্যা",
+        "chapter_number" : "1",
+        "subject_url": "https://youtu.be/g2BTjbe4_co",
+        "exam_link" : ""
       },
       {
-        "subject_id": "CHM301",
+        "subject_id": "PHY302",
         "subject_name": "Physics",
         "subject_title": "Organic Chemistry",
         "subject_url": ""

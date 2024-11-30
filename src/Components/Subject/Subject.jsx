@@ -5,6 +5,7 @@ import chemistry from "../../../public/Images/chemistry.png"
 import biology from "../../../public/Images/Biology.jpg"
 import math from "../../../public/Images/math.jpg"
 import hMath from "../../../public/Images/h math.jpg"
+import theoritical from "../../../public/Images/theoritical.png"
 const Subject = () => {
     const marqueeSubject = <>
      <Marquee speed={200}>
@@ -34,6 +35,12 @@ const Subject = () => {
                             <p className="text-center text-4xl font-bold border px-5">Higher Math</p>
                         </Link>
                     </div>
+                    <div>
+                        <Link to={'/physixtry/theoritical'}>
+                            <img className="w-full h-72" src={theoritical} alt="" />
+                            <p className="text-center text-4xl font-bold border px-5">Theoritical</p>
+                        </Link>
+                    </div>
                 </div>
             </Marquee>
     
@@ -43,7 +50,7 @@ const Subject = () => {
 
         <div>
             <h1 className="text-5xl mt-3 text-yellow-400 font-extrabold underline text-center">Your Classes</h1>
-            <div className="flex flex-col md:flex-row gap-10 mt-10 justify-evenly">
+            <div className="flex flex-col md:flex-row gap-1 mt-10 justify-evenly">
                 <div className="card-actions  justify-center">
                     <button className="btn btn-primary px-20 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/physics">PHYSICS</Link></button>
                 </div>
@@ -58,6 +65,9 @@ const Subject = () => {
                 </div>
                 <div className="card-actions  justify-center">
                     <button className="btn btn-primary px-10 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/biology">BIOLOGY</Link></button>
+                </div>
+                <div className="card-actions  justify-center">
+                    <button className="btn btn-primary px-10 text-white border-none rounded-full text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/biology">THEORITICAL</Link></button>
                 </div>
             </div>
            {marqueeSubject}

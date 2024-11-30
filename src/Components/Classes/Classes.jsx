@@ -32,6 +32,20 @@ const Classes = () => {
                     </div>
                 </div>
             </div>
+            <div className="card text-center md:text-left  flex flex-col lg:flex-row bg-base-100 shadow-xl md:mx-28 border m-10">
+                <figure>
+                    <img className="mx-5 w-full"
+                        src={banner}
+                        alt="Movie" />
+                </figure>
+                <div className="card-body bg-black">
+                    <h2 className="card-title text-5xl text-yellow-300 font-extrabold">Instructional Video</h2>
+                    <p className="text-2xl font-bold text-white">Get All Instructional And Guideline Video Of Our SSC-25 Zero To Hustler Within 200 Hour Course From Here</p>
+                    <div className="card-actions  justify-center">
+                        <button className="btn btn-primary px-24 text-white border-none rounded-full text-md font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><Link to="/physixtry/instructions">Instructional Video</Link></button>
+                    </div>
+                </div>
+            </div>
             <div className="card text-center md:text-left  flex flex-col-reverse lg:flex-row bg-base-100 shadow-xl md:mx-28 border m-10">
 
             <div className="card-body bg-black">
