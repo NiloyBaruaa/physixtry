@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import routine from '../../../public/Images/newRoutine.JPG'
+import routine from '../../../public/Images/vaiamar.png'
 
 
 
