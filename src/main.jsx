@@ -22,6 +22,7 @@ import Books from './Components/Books/Books';
 import Exams from './Components/Exams/Exams';
 import Details from './Components/Details/Details';
 import Notifications from './Components/Notifications/Notifications';
+import Instructions from './Components/Instructions/Instructions';
 
 
 
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: '/physixtry/math',
         element: <Maths></Maths>
+      },
+      {
+        path: '/physixtry/instructions',
+        element: <Instructions></Instructions>
       },
       {
         path: '/physixtry/highermath',

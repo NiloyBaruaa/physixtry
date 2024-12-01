@@ -19,7 +19,7 @@ const Notifications = () => {
     return (
         <div className="bg-blue-950">
         <h1 className="md:text-7xl text-3xl py-16 text-center p-10 font-bold  text-white">Latest Notification</h1>
-             <div className=" md:mx-32 mx-6 grid grid-cols-1 gap-10">
+             <div className=" md:mx-32 mx-6 flex flex-col-reverse gap-5">
                 {
                     notifications.map(notification => <Notification key={notification.notification_id} notification={notification}></Notification>)
                 }
