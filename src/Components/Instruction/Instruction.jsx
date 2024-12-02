@@ -6,7 +6,7 @@ const Instruction = ({instruction}) => {
     return (
         <div >
 
-            <div className="card bg-blue-950 text-white shadow-xl text-center font-bold text-2xl">
+            <div className="card bg-blue-950 text-white h-full shadow-xl text-center font-bold text-2xl">
                 <div className="p-2 rounded-lg  mx-auto">
                 <ReactPlayer url={video_url} height={270} width={380} controls volume></ReactPlayer>
                 </div>

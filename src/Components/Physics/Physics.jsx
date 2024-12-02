@@ -20,7 +20,7 @@ const Physics = () => {
         <div className="bg-blue-200">
             <h1 className="text-6xl pt-16 text-center text-black font-bold">PHYSICS</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10  mt-10 ">
+            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10 gap-4  mt-10 ">
                 {
                     physics.map(physic => <Physic key={physic.subject_id} physic={physic}></Physic>)
                 }

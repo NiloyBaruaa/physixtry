@@ -22,7 +22,7 @@ const Instructions = () => {
         <div className="bg-blue-200">
             <h1 className="text-6xl pt-16 text-center text-black font-bold">Instructional Video</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10  mt-10 ">
+            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center gap-3 md:gap-10 m-10  mt-10 ">
                 {
                     instructions.map(instruction => <Instruction key={instruction.video_id} instruction={instruction}></Instruction>)
                 }
