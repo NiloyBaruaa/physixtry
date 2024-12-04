@@ -7,7 +7,7 @@ import { Navigate } from "react-router-dom";
 const Maths = () => {
     const [maths, setMaths] = useState([]);
     useEffect(() => {
-        fetch('physics.json')
+        fetch('/maths.json')
             .then(res => res.json())
             .then(data => setMaths(data.subjects))
     }, [])
@@ -19,7 +19,7 @@ const Maths = () => {
     }
     return (
         <div>
-            <h1 className="text-7xl text-center font-bold">PHYSICS Content</h1>
+            <h1 className="text-7xl text-center font-bold">Math Content</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10  mt-10 ">
                 {
