@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from "react";
-
 import Bio from "../Bio/Bio";
 import { Navigate } from "react-router-dom";
 
@@ -11,8 +10,6 @@ const Biology = () => {
             .then(res => res.json())
             .then(data => setBiology(data.subjects))
     }, [])
-    console.log(biology);
-    
     const isLoggedIn = localStorage.getItem("isLoggedIn");
 
     if (!isLoggedIn) {
@@ -20,12 +17,12 @@ const Biology = () => {
         return <Navigate to="/physixtry/login" />;
     }
     return (
-        <div>
-            <h1 className="text-3xl text-center font-bold">Biology Content</h1>
+        <div className="bg-blue-200">
+            <h1 className="text-6xl pt-16 text-center text-black font-bold">Biology</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10  mt-10 ">
+            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10 gap-4  mt-10 ">
                 {
-                    biology.map(bio => <Bio key={bio.subject_id} bio={bio}></Bio>)
+                    biology.map(bio => <Bio key={bio.subject_id} bio = {bio}></Bio>)
                 }
             </div>
 
