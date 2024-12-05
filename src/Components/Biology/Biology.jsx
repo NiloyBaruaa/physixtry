@@ -11,6 +11,8 @@ const Biology = () => {
             .then(res => res.json())
             .then(data => setBiology(data.subjects))
     }, [])
+    console.log(biology);
+    
     const isLoggedIn = localStorage.getItem("isLoggedIn");
 
     if (!isLoggedIn) {
