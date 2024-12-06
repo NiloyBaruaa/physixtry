@@ -7,7 +7,7 @@ const Physic = ({ physic }) => {
     return (
         <div >
 
-            <div className="card bg-blue-950 text-white shadow-xl text-center mx-3 font-bold text-2xl">
+            <div className="card bg-blue-950 h-full text-white shadow-xl text-center mx-3 font-bold text-2xl">
                 <div className="p-2 rounded-lg"><ReactPlayer url={subject_url} height={270} width={380} controls volume></ReactPlayer></div>
                 <div className="card-body">
                  
