@@ -9,7 +9,7 @@ const Chemistry = () => {
 
     const [chemistry, setChemistry] = useState([]);
     useEffect(() => {
-        fetch('physics.json')
+        fetch('/chemistry.json')
             .then(res => res.json())
             .then(data => setChemistry(data.subjects))
     }, [])
