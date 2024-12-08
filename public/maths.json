@@ -7,6 +7,14 @@
         "chapter_number" : "1",
         "subject_url": "https://youtu.be/j2fgFlOE-k0",
         "exam_link" : "https://forms.gle/i5Xbkhhkq5BktsKTA"
+      },
+      {
+        "subject_id": "Math302",
+        "subject_name": "General Math",
+        "subject_title": "সেট ও ফাংশন",
+        "chapter_number" : "2",
+        "subject_url": "https://youtu.be/efjR_nUVo_s",
+        "exam_link" : ""
       }
     ]
   }
