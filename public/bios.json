@@ -8,6 +8,14 @@
       "chapter_number" : "1",
       "subject_url": "https://youtu.be/s9EBu6uuVCA",
       "exam_link" : "https://forms.gle/2xCXWQRPuB5vPzRk8"
+    },
+    {
+      "subject_id": "BIO302",
+      "subject_name": "Biology",
+      "subject_title": "জীবকোষ ও টিস্যু",
+      "chapter_number" : "2",
+      "subject_url": "https://youtu.be/CQjAPZ1mjGw",
+      "exam_link" : ""
     }
   ]
 }
