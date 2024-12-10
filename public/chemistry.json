@@ -9,6 +9,14 @@
         "chapter_number" : "1",
         "subject_url": "https://youtu.be/sndOCwxtcRU",
         "exam_link" : "https://forms.gle/zxtPXh2NjrDMFVVR6"
+      },
+      {
+        "subject_id": "CHM302",
+        "subject_name": "Chemistry",
+        "subject_title": "পদার্থের অবস্থা",
+        "chapter_number" : "2",
+        "subject_url": "https://youtu.be/xgo-g4PS5_8",
+        "exam_link" : ""
       }
     ]
   }
