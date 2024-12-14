@@ -17,6 +17,14 @@
         "chapter_number" : "2",
         "subject_url": "https://youtu.be/UYF4ZiRUVtA",
         "exam_link" : "https://forms.gle/z1YpHBmPRc8W51M28"
+      },
+      {
+        "subject_id": "PHY303",
+        "subject_name": "Physics",
+        "subject_title": "বল",
+        "chapter_number" : "3",
+        "subject_url": "https://youtu.be/4NRIo7UWj9s",
+        "exam_link" : ""
       }
     ]
   }
