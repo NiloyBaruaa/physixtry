@@ -23,6 +23,14 @@
         "chapter_number" : "13",
         "subject_url": "https://youtu.be/a_ZX-6xsN0E",
         "exam_link" : "https://forms.gle/A2DWxnBqGuqFUR1EA"
+      },
+      {
+        "subject_id": "Math304",
+        "subject_name": "General Math",
+        "subject_title": "সূচক ও লগারিদম",
+        "chapter_number" : "৪",
+        "subject_url": "https://youtu.be/seq-LuVi334",
+        "exam_link" : ""
       }
     ]
   }
