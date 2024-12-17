@@ -30,6 +30,14 @@
         "subject_title": "সূচক ও লগারিদম",
         "chapter_number" : "৪",
         "subject_url": "https://youtu.be/seq-LuVi334",
+        "exam_link" : "https://forms.gle/BANyZYMMcAoqU2qL9"
+      },
+      {
+        "subject_id": "Math305",
+        "subject_name": "General Math",
+        "subject_title": "এক চলকবিশিষ্ট সমীকরণ",
+        "chapter_number" : "5",
+        "subject_url": "https://youtu.be/kXrFV5SvT_Y",
         "exam_link" : ""
       }
     ]
