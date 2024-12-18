@@ -25,6 +25,14 @@
         "chapter_number" : "3",
         "subject_url": "https://youtu.be/4NRIo7UWj9s",
         "exam_link" : "https://forms.gle/Z54DU2D526xgZDnbA"
+      },
+      {
+        "subject_id": "PHY304",
+        "subject_name": "Physics",
+        "subject_title": "কাজ, ক্ষমতা ও শক্তি",
+        "chapter_number" : "4",
+        "subject_url": "https://youtu.be/mssRo9s1E3E",
+        "exam_link" : ""
       }
     ]
   }
