@@ -7,7 +7,7 @@ import { Navigate } from "react-router-dom";
 const HigherMath = () => {
     const [higherMath, setHigherMath] = useState([]);
     useEffect(() => {
-        fetch('physics.json')
+        fetch('/hmath.json')
             .then(res => res.json())
             .then(data => setHigherMath(data.subjects))
     }, [])
@@ -19,7 +19,7 @@ const HigherMath = () => {
     }
     return (
         <div>
-            <h1 className="text-7xl text-center font-bold">PHYSICS Content</h1>
+            <h1 className="text-7xl text-center font-bold">Higher Math Content</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center m-10  mt-10 ">
                 {
