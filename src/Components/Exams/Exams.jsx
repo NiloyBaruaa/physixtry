@@ -7,7 +7,7 @@ const Exams = () => {
 
     const [exams, setExams] = useState([])
     useEffect(() => {
-        fetch('exams.json')
+        fetch('/exams.json')
             .then(res => res.json())
             .then(data => setExams(data.exams))
     }, [])

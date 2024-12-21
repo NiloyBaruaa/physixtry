@@ -1,64 +1,9 @@
 {
     "exams": [
       {
-        "exam_name": "Weekly Test 1",
-        "google_form_link": "https://forms.gle/t2t2jsdwukPsZwMA9",
+        "exam_name": "Proof Of Conception Test 1",
+        "google_form_link": "https://forms.gle/BkxhqxYBYkUBML4x8",
         "exam_unique_id": "WT001"
-      },
-      {
-        "exam_name": "Weekly Test 2",
-        "google_form_link": "https://forms.gle/example2",
-        "exam_unique_id": "WT002"
-      },
-      {
-        "exam_name": "Weekly Test 3",
-        "google_form_link": "https://forms.gle/example3",
-        "exam_unique_id": "WT003"
-      },
-      {
-        "exam_name": "Weekly Test 4",
-        "google_form_link": "https://forms.gle/example4",
-        "exam_unique_id": "WT004"
-      },
-      {
-        "exam_name": "Weekly Test 5",
-        "google_form_link": "https://forms.gle/example5",
-        "exam_unique_id": "WT005"
-      },
-      {
-        "exam_name": "Weekly Test 6",
-        "google_form_link": "https://forms.gle/example6",
-        "exam_unique_id": "WT006"
-      },
-      {
-        "exam_name": "Weekly Test 7",
-        "google_form_link": "https://forms.gle/example7",
-        "exam_unique_id": "WT007"
-      },
-      {
-        "exam_name": "Weekly Test 8",
-        "google_form_link": "https://forms.gle/example8",
-        "exam_unique_id": "WT008"
-      },
-      {
-        "exam_name": "Weekly Test 9",
-        "google_form_link": "https://forms.gle/example9",
-        "exam_unique_id": "WT009"
-      },
-      {
-        "exam_name": "Weekly Test 10",
-        "google_form_link": "https://forms.gle/example10",
-        "exam_unique_id": "WT010"
-      },
-      {
-        "exam_name": "Weekly Test 11",
-        "google_form_link": "https://forms.gle/example11",
-        "exam_unique_id": "WT011"
-      },
-      {
-        "exam_name": "Weekly Test 12",
-        "google_form_link": "https://forms.gle/example12",
-        "exam_unique_id": "WT012"
       }
     ]
   }
