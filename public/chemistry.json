@@ -25,6 +25,14 @@
         "chapter_number" : "3",
         "subject_url": "https://youtu.be/hC5PmaqccaU",
         "exam_link" : ""
+      },
+      {
+        "subject_id": "CHM304",
+        "subject_name": "Chemistry",
+        "subject_title": "পর্যায় সারণি",
+        "chapter_number" : "৪",
+        "subject_url": "https://youtu.be/ralzt1LpX6Y",
+        "exam_link" : "" 
       }
     ]
   }

@@ -108,5 +108,10 @@
         "notification_id": "22",
         "notification_title": "POC Test 1 Uploaded",
         "notification_description": "24 ঘণ্টার মধ্যে পরীক্ষা না দিলে তোমার খাতা আমরা Count করবনা । Weekly Test অংশে গিয়ে দিয়ে ফেল তোমার পরীক্ষা "
+    },
+    {
+        "notification_id": "23",
+        "notification_title": "Chemistry Chapter 4 Uploaded",
+        "notification_description": "আশা করি, তোমাদের Weekly Test খুব ভালো হয়েছে। আজ তোমাদের জন্য Chemistry এর সবথেকে গুরত্বপূণ চ্যাপ্টার, Chapter 4 এর ক্লাস Release করা হচ্ছে। যদি Chapter 3 এর ক্লাস করা না থাকে তাইলে ভুলেও এই চ্যাপ্টার করোনা, এই চ্যাপ্টার পড়ার আগে অবশ্যই চ্যাপ্টার ৩ এর ভিডিও দেখে প্রথম ৩০টি মৌলের ইলেকট্রন বিন্যাস করে ফেলা থাকতে হবে। "
     }
 ]
