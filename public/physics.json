@@ -33,6 +33,14 @@
         "chapter_number" : "4",
         "subject_url": "https://youtu.be/mssRo9s1E3E",
         "exam_link" : ""
+      },
+      {
+        "subject_id": "PHY305",
+        "subject_name": "Physics",
+        "subject_title": "পদার্থের অবস্থা ও চাপ",
+        "chapter_number" : "5",
+        "subject_url": "https://youtu.be/LdbEl9YR1ho",
+        "exam_link" : ""
       }
     ]
   }
