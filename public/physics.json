@@ -41,6 +41,14 @@
         "chapter_number" : "5",
         "subject_url": "https://youtu.be/LdbEl9YR1ho",
         "exam_link" : ""
+      },
+      {
+        "subject_id": "PHY306",
+        "subject_name": "Physics",
+        "subject_title": "বস্তুর ওপর তাপের প্রভাব",
+        "chapter_number" : "6",
+        "subject_url": "https://youtu.be/X7pZVeqJeEM",
+        "exam_link" : ""
       }
     ]
   }
